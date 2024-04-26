@@ -59,7 +59,8 @@ While airborne after touching a Bounce Pad:
  * Example of the effect of holding a direction below.
 
 
-https://github.com/lance-o/bouncy-material/assets/61329703/4c827cb3-199a-4d9e-aff6-792af76c517e
+https://github.com/lance-o/bouncy_material/assets/61329703/d479ea74-63ad-4cb7-9b22-704134b7dbc0
+
 
 
 ## How to Use
@@ -80,10 +81,7 @@ The most important thing is extracting the __.bol__ (collision) file from MKDD a
 
 Import your __.obj__ into Blender.
 
-![blender_fjZrPXNCgt](https://github.com/lance-o/bouncy-material/assets/61329703/bac8225c-21b0-46c1-8ecb-fe0dfaf89765)
-
-
-
+![blender_fjZrPXNCgt](https://github.com/lance-o/bouncy_material/assets/61329703/81d953a7-81b1-426f-9b6c-f6487f292da3)
 
 
 You'll probably not see anything. This is because MKDD tracks are actually ridiculously large. 
@@ -92,21 +90,22 @@ To see it, first press __N__. This will bring up a bar on the side. There should
 
 Select the paramater __"End"__ and type in some huge number. I just type __99999999__ every time.
 
-![blender_iUGIBZpenh](https://github.com/lance-o/bouncy-material/assets/61329703/5148d5b2-5d5d-4925-98a6-05543ebb6169)
+
+![blender_iUGIBZpenh](https://github.com/lance-o/bouncy_material/assets/61329703/2f7f0757-2467-4799-afe8-82ce0aa8afd6)
 
 
 
 Zoom out by scrolling your mouse wheel down, and hopefully your collision model should come into view. It might take a lot of scrolling,
 because it really is huge.
 
-![blender_OmAAqMgvUy](https://github.com/lance-o/bouncy-material/assets/61329703/28d56439-95e8-439c-9d4d-423a7d9696a1)
 
+![blender_OmAAqMgvUy](https://github.com/lance-o/bouncy_material/assets/61329703/18a11824-47d1-4e56-b867-a850f960fdde)
 
 
 If your model has an orange outline, then it's __selected__, which is good. If it doesn't, click on the model itself or in the inspector
 on the right. Then, go to __Edit Mode__.
 
-![blender_Jwvqr6gohD](https://github.com/lance-o/bouncy-material/assets/61329703/39135978-ccbe-4066-bec5-f606bb3d3192)
+![blender_Jwvqr6gohD](https://github.com/lance-o/bouncy_material/assets/61329703/c1ef9729-4fb7-43ae-8416-389928e9e210)
 
 
 After switching to edit mode, you should be able to see vertices and edges all over the model. If you can't, try pressing and holding __Z__.
@@ -114,7 +113,7 @@ This will allow you to change how Blender renders the mode. I like to keep mine 
 
 Near where you changed the mode to __Edit Mode__, there should be these things:
 
-![blender_2Y52WDut7w](https://github.com/lance-o/bouncy-material/assets/61329703/d8480337-76a1-454f-a7fe-e29677e51616)
+![blender_2Y52WDut7w](https://github.com/lance-o/bouncy_material/assets/61329703/b91fbb65-f38a-497a-a41e-c0020c0e771d)
 
 From left to right, these correspont to __Vertices__, __Edges__ and __Faces__. I'm going to select the third one, so that
 Blender is now in __Face Select Mode__. That means that when I click on my model, it will select an entire face of
@@ -124,13 +123,14 @@ Go ahead and select a face on your track.
 
 Now, let's take a look at the __Material__ of the track. Near the bottom-right, click this thing.
 
-![blender_prbLTnfj3z](https://github.com/lance-o/bouncy-material/assets/61329703/c5c9fab3-a257-4649-8a90-05aa96d0f78e)
+![blender_prbLTnfj3z](https://github.com/lance-o/bouncy_material/assets/61329703/8fca615b-8c47-4f06-9596-2634133502f0)
+
 
 This will open up the __Material Properties__ tab. This is where we actually set a material to use the bounce material.
 
 Over here is our ground materials. 
 
-![blender_faMWzfg56i](https://github.com/lance-o/bouncy-material/assets/61329703/b5827486-ffab-474f-969e-24740d42f399)
+![blender_faMWzfg56i](https://github.com/lance-o/bouncy_material/assets/61329703/312dd296-b85a-43bf-a827-865228a56c4d)
 
 Click anywhere on the model (with __Face Select Mode__ enabled), and the entry over on the right will change to whatever 
 that face's material is set to. If you're creating a new .bco from scratch, I'd recommend looking at a vanilla one to
@@ -157,12 +157,14 @@ will bounce you.
 
 To do that, press the __"+"__ button on the right of the Materials list, and then press __"New"__ underneath the Materials list.
 
-![blender_jBKwERhL2v](https://github.com/lance-o/bouncy-material/assets/61329703/6fb1a003-9c96-4dc5-a2a6-85e628838bf9)
-![blender_4bWtoHuVxO](https://github.com/lance-o/bouncy-material/assets/61329703/43984818-d6d2-4a3e-b3cb-c8e256812be8)
+![blender_jBKwERhL2v](https://github.com/lance-o/bouncy_material/assets/61329703/4d11d907-91d4-491b-bd01-c975f870b85d)
+![blender_4bWtoHuVxO](https://github.com/lance-o/bouncy_material/assets/61329703/4cf767f4-e0dc-48a5-ad5f-db139fd0f5c3)
+
 
 Type in the box what you need your material name to be called. In my case, it's this:
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/6e769841-e8a9-4b20-ac95-4a22b1c87456)
+![blender_lP9GoVmDfO](https://github.com/lance-o/bouncy_material/assets/61329703/eaf801f6-5574-4338-b545-c5d5bbf8fecf)
+
 
 Press Enter, and your new material's name will be updated to reflect what you typed in.
 
@@ -205,14 +207,15 @@ For this, we'll need to apply the material to the ground and compile everything 
 
 Firstly, in Blender, select whatever face(s) you want to set to your new bounce material.
 
-![blender_kp3g70eoGm](https://github.com/lance-o/bouncy-material/assets/61329703/2d997762-c977-47e7-9c75-b3e6a1c940a1)
+
+![blender_kp3g70eoGm](https://github.com/lance-o/bouncy_material/assets/61329703/f399233a-61b0-45e3-83e7-9a07cdf91475)
 
 Then, in the __Material Properties Tab__, scroll down until you find the material you just made.
 Click on the material.
 
 With the faces you want to apply it to still selected, click __"Assign"__.
 
-![blender_FMkEAudmzq](https://github.com/lance-o/bouncy-material/assets/61329703/fa8bdb23-dce2-43bc-898f-d1ed5be8e4e9)
+![blender_FMkEAudmzq](https://github.com/lance-o/bouncy_material/assets/61329703/73a4d83d-1907-4030-8f84-6949fc1243d3)
 
 Those faces will now be using your new material, instead of whatever they used before. To test this,
 click on some other faces that don't use your new material, and scroll back to the new material and click on it.
@@ -221,7 +224,8 @@ Press __"Select"__, and the faces you set to your new material should now also b
 
 Now we know it's set, export the scene as __.obj__.
 
-![blender_0llxSWuQci](https://github.com/lance-o/bouncy-material/assets/61329703/97f01d52-2aa2-4f47-8eec-ef17ad83860a)
+![blender_0llxSWuQci](https://github.com/lance-o/bouncy_material/assets/61329703/65d14c08-6d79-43a3-83ed-faedf3938d02)
+
 
 You don't need to mess with any settings while saving, the defaults should be fine.
 
@@ -235,7 +239,7 @@ you may find [MKDD-Patcher](https://github.com/RenolY2/mkdd-track-patcher)'s ins
 
 With your mod folder set up correctly, open __MKDD-Extender__.
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/1a4f7d63-7ccc-41fa-b006-b21e72d6faf9)
+![python3 10_PhXEVxh0Pv](https://github.com/lance-o/bouncy_material/assets/61329703/23891722-900c-4023-a8e5-00dc7e1523a1)
 
 At the top, click "__Browse__" next the to "__Input ISO File__" bar and locate your __.iso__ of Mario Kart: Double Dash!!. 
 
@@ -245,14 +249,15 @@ If "__Output ISO File__" does not automatically fill, click "__Browse__" next to
 
 If everything is entered, it should look like this:
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/98da72e6-c25a-4fc2-b7ab-63f6a52220ab)
+![python3 10_HAIiksjc5Z](https://github.com/lance-o/bouncy_material/assets/61329703/8dc3e04f-1c26-48c0-9fb8-8a3719049873)
 
 Now, on the left are all the mods that MKDD-Extender has detected. Assuming the one you made has appeared in there, drag it onto one of the 
 slots in the middle. This will add your modded track to the corresponding track slot in-game.
 
 To enable the Bouncy materials patch, click on "__Options__".
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/d548f8ee-370a-4163-b3bb-796eb9d22024)
+![python3 10_v6IVYr44sM](https://github.com/lance-o/bouncy_material/assets/61329703/806555b7-4149-4176-bf29-c5305f18216e)
+
 
 Under "__Code Patches__", you should find "__Bouncy Material__". Tick the box next to it, and now when you press "__Build__"
 on the right of the main window of MKDD-Extender, it will apply that patch to your new, patched Double Dash __.iso__.
@@ -262,11 +267,12 @@ and if all has gone correctly, it should be your modded track.
 
 Now, turn your attention to __Dolphin Memory Engine__. 
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/3bdbf4d7-b502-4c18-928d-5e8a539557f0)
+![DolphinMemoryEngine_b17Gd1SZoZ](https://github.com/lance-o/bouncy_material/assets/61329703/ff17f5a7-2115-44c9-8217-85fb938b5f06)
+
 
 Launch the Memory Viewer.
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/3ef1d3eb-00f0-48ba-9489-1daa744e7c04)
+![DolphinMemoryEngine_GiEZDQ3UEZ](https://github.com/lance-o/bouncy_material/assets/61329703/4bb72940-0cdf-4a27-95dc-0e020db66f1b)
 
 You're now looking at the real-time memory of Mario Kart: Double Dash!!. 
 
@@ -274,7 +280,8 @@ In the box named "Jump to an address", type the following:
 
 > 8000523c
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/fbfce198-d9e1-40f2-b4f7-62fa0fcbc5e8)
+![DolphinMemoryEngine_QAfMJPrPIU](https://github.com/lance-o/bouncy_material/assets/61329703/4c939ab8-de5d-4cc8-aa32-05b066b58f73)
+
 
 It should look like that. 
 
@@ -288,7 +295,9 @@ what you just put in _Dolphin Memory Engine__.
 Now, you can change the direction it bounces you on the fly. When you find a setting you like, you may write it down 
 (or, if Blender is still open, go and change the material immediately). 
 
-https://github.com/lance-o/bouncy-material/assets/61329703/36d60976-8698-4404-891b-bf182b9b9208
+
+https://github.com/lance-o/bouncy_material/assets/61329703/d18488a2-8889-447d-9de9-372b4b09f326
+
 
 > NOTE: This example is from when the address used was different. Please only use the address "0x8000523C".
 
@@ -299,7 +308,8 @@ have found one you like.
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/6a139cf4-5728-4928-bec7-ceaa6201f2de)
+![notepad++_yE5oPcdMFh](https://github.com/lance-o/bouncy_material/assets/61329703/62cdb62c-29d6-4636-97ac-46d90acca85a)
+
 
 
 ### tldr
@@ -317,12 +327,14 @@ This will cause the patch to read from a place in memory instead.
 Use __Dolphin Memory Engine's Memory Viewer__ and go to 0x8000523C. Treat the first 8 values the same way you
 would the material name; you may experiment with different bounce settings in this way without having to recompile the game.
 
-https://github.com/lance-o/bouncy-material/assets/61329703/36d60976-8698-4404-891b-bf182b9b9208
+
+https://github.com/lance-o/bouncy_material/assets/61329703/43582a35-8024-4010-b193-ad1cc1b07d4b
+
 
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![image](https://github.com/lance-o/bouncy-material/assets/61329703/6a139cf4-5728-4928-bec7-ceaa6201f2de)
+![notepad++_yE5oPcdMFh](https://github.com/lance-o/bouncy_material/assets/61329703/5af36941-a138-401a-9653-3a763594101f)
 
 ## Known Issues
 
