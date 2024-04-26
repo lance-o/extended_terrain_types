@@ -308,7 +308,8 @@ have found one you like.
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![notepad++_yE5oPcdMFh](https://github.com/lance-o/bouncy_material/assets/61329703/62cdb62c-29d6-4636-97ac-46d90acca85a)
+![notepad++_KSRMk6xYrF](https://github.com/lance-o/bouncy_material/assets/61329703/6a906b8d-3cb9-4be0-a027-8c5f83d331f5)
+
 
 
 
@@ -334,7 +335,8 @@ https://github.com/lance-o/bouncy_material/assets/61329703/43582a35-8024-4010-b1
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![notepad++_yE5oPcdMFh](https://github.com/lance-o/bouncy_material/assets/61329703/5af36941-a138-401a-9653-3a763594101f)
+![notepad++_KSRMk6xYrF](https://github.com/lance-o/bouncy_material/assets/61329703/72a512df-6baf-418a-a216-c26e4b849712)
+
 
 ## Known Issues
 
