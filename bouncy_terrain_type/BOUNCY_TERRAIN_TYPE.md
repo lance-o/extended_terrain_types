@@ -1,5 +1,5 @@
 # **Bouncy Terrain Type**
-> How this terrain type and how to add it to your MKDD custom tracks
+> How this terrain type works and how to add it to your MKDD custom tracks
 
 ## About
 
@@ -74,7 +74,7 @@ To add this to your Custom Track, you'll need some things.
 * [Blender](https://www.blender.org/download/) for adding the correct materials (and honestly the entire rest of a Custom Track).
 * [MKDD-Collision](https://mkdd.org/wiki/Mkdd-collision) to convert the collision data to something Blender can use and back.
 * [GCFT](https://mkdd.org/wiki/GCFT) to extract and repack .arc files from MKDD's main.dol.
-* [MKDD-Extender](https://github.com/cristian64/mkdd-extender/releases/tag/v1.8.0) to patch your MKDD.iso with the Bouncy materials patch.
+* [MKDD-Extender](https://github.com/cristian64/mkdd-extender/releases/tag/v1.8.0) to patch your MKDD.iso with the Extended Terrain Types patch.
 * [Dolphin](https://dolphin-emu.org/download) to play Mario Kart Double Dash!! and test your settings for your bounce.
 * [Dolphin Memory Engine](https://github.com/aldelaro5/dolphin-memory-engine/releases/tag/v1.0.0) for help with setting how far to bounce you.
 
@@ -146,7 +146,7 @@ The part that dictates what kind of road it is, is the first 0x0101 area. This c
 
 > 0xAABB
 
-where AA is the collision flag, and BB is the sound flag. In the case of my example material, that means the collision
+where AA is the terrain type, and BB is the sound flag. In the case of my example material, that means the collision
 flag is 01 and the sound flag is 01 as well.
 
 The first part, the collision flag, is what you'll need to change for the patch to recognize that this part of the track should bounce you.
@@ -256,12 +256,12 @@ If everything is entered, it should look like this:
 Now, on the left are all the mods that MKDD-Extender has detected. Assuming the one you made has appeared in there, drag it onto one of the 
 slots in the middle. This will add your modded track to the corresponding track slot in-game.
 
-To enable the Bouncy materials patch, click on "__Options__".
+To enable the Extended Terrain Types patch, click on "__Options__".
 
 ![python3 10_v6IVYr44sM](https://github.com/lance-o/bouncy_material/assets/61329703/806555b7-4149-4176-bf29-c5305f18216e)
 
 
-Under "__Code Patches__", you should find "__Bouncy Material__". Tick the box next to it, and now when you press "__Build__"
+Under "__Code Patches__", you should find "__Extended Terrain Types__". Tick the box next to it, and now when you press "__Build__"
 on the right of the main window of MKDD-Extender, it will apply that patch to your new, patched Double Dash __.iso__.
 
 Open up your new __.iso__ in __Dolphin__, and also, open up __Dolphin Memory Engine__. Load up your modded track in Time Trials,
@@ -321,7 +321,7 @@ For the game to use Bounce Pad, set up your material according to the following 
 
 > Roadtype_0xB0XX_0x01_0xYYYYFFFF
 
-with B0 being the Bounce Pad collision flag, XX being the sound flag you want your material to have, YYYY being the amount
+with B0 being the Bounce Pad terrain type, XX being the sound flag you want your material to have, YYYY being the amount
 of force to add upwards x100 in hex and FFFF being the amount of force to add forwards x100 in hex.
 
 Since it's hard to gauge exactly how far it'll push you based on that information, leave YYYYFFFF as 00000000.
@@ -370,7 +370,7 @@ collided with, the Kart will appear to stop, fall, then fly forwards in the dire
 
 * The highest speeds possible from bouncing *should* not cause problems, but it is known that travelling *very fast* will cause
 crashes. The theory for why is to do with the speedometer attempting to display numbers that it was never meant to handle,
-but as it persists, _it is advisable to not use the bounce material in situations where a Cannon object would do the job_.
+but as it persists, _it is advisable to not use the bounce terrain type in situations where a Cannon object would do the job_.
 
 ### __Bug Reports__
 
