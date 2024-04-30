@@ -5,7 +5,7 @@
 MKDD Extender now has a patch that adds a mechanic featured in many later Mario Kart titles; __Bounce Pads__. This site goes over the mechanics added,
 and how to implement them into your own Custom Tracks.
 
-[Bouncy Terrain](#bouncy_terrain_type/BOUNCY_TERRAIN_TYPE.md)
+[Bouncy Terrain](bouncy_terrain_type/BOUNCY_TERRAIN_TYPE.md)
 
 [How to use](#how-to-use)
 
