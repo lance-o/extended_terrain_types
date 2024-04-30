@@ -1,9 +1,9 @@
-# **Bouncy Material**
-> How this material works and how to add it to your MKDD custom tracks
+# **Bouncy Terrain Type**
+> How this terrain type and how to add it to your MKDD custom tracks
 
 ## About
 
-MKDD Extender now has a patch that adds a mechanic featured in many later Mario Kart titles; __Bounce Pads__. This site goes over the mechanics added,
+Extended Terrain Types's "Bouncy Terrain Type" adds a mechanic featured in many later Mario Kart titles; __Bounce Pads__. This site goes over the mechanics added,
 and how to implement them into your own Custom Tracks.
 
 [Mechanics](#mechanics)
@@ -22,7 +22,7 @@ and how to implement them into your own Custom Tracks.
 ### Basics
 When driving over ground marked as a bounce pad, Karts will be propelled forwards and upwards by an amount of force specified by a track creator.
 
-* A track can have as many bounce pads as it has materials; which is to say, __there is not really a hard limit on how many different Bounce Pads
+* A track can have as many bounce pads as its __.bco__ file can have materials; which is to say, __there is not really a hard limit on how many different Bounce Pads
 can exist in one track__.
 
 
@@ -61,7 +61,7 @@ While airborne after touching a Bounce Pad:
  * Example of the effect of holding a direction below.
 
 
-https://github.com/lance-o/bouncy_material/assets/61329703/d479ea74-63ad-4cb7-9b22-704134b7dbc0
+https://github.com/lance-o/bouncy_/assets/61329703/d479ea74-63ad-4cb7-9b22-704134b7dbc0
 
 
 
