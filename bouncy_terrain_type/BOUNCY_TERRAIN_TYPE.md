@@ -310,7 +310,8 @@ have found one you like.
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![notepad++_KSRMk6xYrF](https://github.com/lance-o/bouncy_material/assets/61329703/6a906b8d-3cb9-4be0-a027-8c5f83d331f5)
+![image](https://github.com/lance-o/extended_terrain_types/assets/61329703/a68c499e-0590-49c9-8ac5-424dc282cd53)
+
 
 
 
@@ -337,7 +338,8 @@ https://github.com/lance-o/bouncy_material/assets/61329703/43582a35-8024-4010-b1
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![notepad++_KSRMk6xYrF](https://github.com/lance-o/bouncy_material/assets/61329703/72a512df-6baf-418a-a216-c26e4b849712)
+![image](https://github.com/lance-o/extended_terrain_types/assets/61329703/331b2ca1-ab87-49a5-a0f0-798aca9b1acb)
+
 
 
 ## Known Issues
