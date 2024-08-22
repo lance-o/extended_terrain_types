@@ -282,7 +282,9 @@ Now, depending on the region of your game, you will need to use a different addr
 In the box named "Jump to an address", type the following depending on your game version:
 
 > USA: 802ed67a
+
 > PAL: 802f9d0e
+
 > JAPAN: 8030a78e
 
 ![image](https://github.com/user-attachments/assets/4d0252c1-923a-4886-95c8-0251ee830675)
@@ -334,10 +336,13 @@ This will cause the patch to read from a place in memory instead.
 Use __Dolphin Memory Engine's Memory Viewer__ and go to one of the following addresses, respective to your game version:
 
 > USA: 802ed67a
+
 > PAL: 802f9d0e
+
 > JAPAN: 8030a78e
 
-Treat the first 8 values the same way you would the material name; you may experiment with different bounce settings in this way without having to recompile the game.
+The first 8 values you find in your game should be "50005000". These first 8 values function the same way as the material name; 
+you may experiment with different bounce settings in this way without having to recompile the game.
 
 
 https://github.com/lance-o/bouncy_material/assets/61329703/43582a35-8024-4010-b193-ad1cc1b07d4b
