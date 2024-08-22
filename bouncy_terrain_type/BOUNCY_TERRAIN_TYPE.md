@@ -3,7 +3,7 @@
 
 ## About
 
-Extended Terrain Types's "Bouncy Terrain Type" adds a mechanic featured in many later Mario Kart titles; __Bounce Pads__. This site goes over the mechanics added,
+MKDD Extender's "Bouncy Terrain Type" adds a mechanic featured in many later Mario Kart titles; __Bounce Pads__. This site goes over the mechanics added,
 and how to implement them into your own Custom Tracks.
 
 [Mechanics](#mechanics)
@@ -74,7 +74,7 @@ To add this to your Custom Track, you'll need some things.
 * [Blender](https://www.blender.org/download/) for adding the correct materials (and honestly the entire rest of a Custom Track).
 * [MKDD-Collision](https://mkdd.org/wiki/Mkdd-collision) to convert the collision data to something Blender can use and back.
 * [GCFT](https://mkdd.org/wiki/GCFT) to extract and repack .arc files from MKDD's main.dol.
-* [MKDD-Extender](https://github.com/cristian64/mkdd-extender/releases/tag/v1.8.0) to patch your MKDD.iso with the Extended Terrain Types patch.
+* [MKDD-Extender](https://github.com/cristian64/mkdd-extender/releases/tag/v1.8.0) to patch your MKDD.iso with the Bouncy Terrain Type patch.
 * [Dolphin](https://dolphin-emu.org/download) to play Mario Kart Double Dash!! and test your settings for your bounce.
 * [Dolphin Memory Engine](https://github.com/aldelaro5/dolphin-memory-engine/releases/tag/v1.0.0) for help with setting how far to bounce you.
 
@@ -256,12 +256,12 @@ If everything is entered, it should look like this:
 Now, on the left are all the mods that MKDD-Extender has detected. Assuming the one you made has appeared in there, drag it onto one of the 
 slots in the middle. This will add your modded track to the corresponding track slot in-game.
 
-To enable the Extended Terrain Types patch, click on "__Options__".
+To enable the Bouncy Terrain Type patch, click on "__Options__".
 
 ![python3 10_v6IVYr44sM](https://github.com/lance-o/bouncy_material/assets/61329703/806555b7-4149-4176-bf29-c5305f18216e)
 
 
-Under "__Code Patches__", you should find "__Extended Terrain Types__". Tick the box next to it, and now when you press "__Build__"
+Under "__Code Patches__", you should find "__Bouncy Terrain Type__". Tick the box next to it, and now when you press "__Build__"
 on the right of the main window of MKDD-Extender, it will apply that patch to your new, patched Double Dash __.iso__.
 
 Open up your new __.iso__ in __Dolphin__, and also, open up __Dolphin Memory Engine__. Load up your modded track in Time Trials,
@@ -310,8 +310,7 @@ have found one you like.
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![image](https://github.com/lance-o/extended_terrain_types/assets/61329703/a68c499e-0590-49c9-8ac5-424dc282cd53)
-
+![image](https://github.com/user-attachments/assets/8849395c-4664-44f2-9955-a7009cbed6c3)
 
 
 
@@ -338,7 +337,7 @@ https://github.com/lance-o/bouncy_material/assets/61329703/43582a35-8024-4010-b1
 If your Custom Track is ready to be uploaded, please remember to add a "code_patches" line to your trackinfo.
 It should look something like the following:
 
-![image](https://github.com/lance-o/extended_terrain_types/assets/61329703/331b2ca1-ab87-49a5-a0f0-798aca9b1acb)
+![image](https://github.com/user-attachments/assets/8849395c-4664-44f2-9955-a7009cbed6c3)
 
 
 
