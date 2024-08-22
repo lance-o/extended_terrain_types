@@ -76,7 +76,7 @@ To add this to your Custom Track, you'll need some things.
 * [GCFT](https://mkdd.org/wiki/GCFT) to extract and repack .arc files from MKDD's main.dol.
 * [MKDD-Extender](https://github.com/cristian64/mkdd-extender/releases/tag/v1.8.0) to patch your MKDD.iso with the Bouncy Terrain Type patch.
 * [Dolphin](https://dolphin-emu.org/download) to play Mario Kart Double Dash!! and test your settings for your bounce.
-* [Dolphin Memory Engine](https://github.com/aldelaro5/dolphin-memory-engine/releases/tag/v1.0.0) for help with setting how far to bounce you.
+* [Dolphin Memory Engine](https://github.com/aldelaro5/dolphin-memory-engine/releases/tag/v1.0.0) for help with setting how far to bounce Karts.
 
 Tutorials on how to use these programs can be found [here](https://mkdd.org/wiki/Category:Tutorials).
 The most important thing is extracting the __.bol__ (collision) file from MKDD and converting it into a __.obj__ file.
