@@ -54,7 +54,7 @@ While airborne after touching a Bounce Pad:
 
 * You can slightly move your Kart left or right.
 
-* Holding Drift while airborne will decrease the speed of your descent.
+* Holding Drift while airborne will increase the speed of your descent.
 
 * You can hold up or down to increase or decrease the speed of your descent, respectively.
 
