@@ -35,7 +35,7 @@ Before you bounce off of a bounce pad, your speed may be influenced by a Mushroo
 
   * This means you may not want to Mini Turbo before bouncing if you're trying to go up.
 
-  * Either a Mini Turbo or Boost will set forwards momentum up to a minimum if a Bounce Pad does have a lot of forwards momentum.
+  * Either a Mini Turbo or Boost will set forwards momentum up to a minimum if a Bounce Pad doesn't have a lot of forwards momentum.
  
     * You probably shouldn't be setting the forwards momentum to be so low that this breaks your track.  
 
