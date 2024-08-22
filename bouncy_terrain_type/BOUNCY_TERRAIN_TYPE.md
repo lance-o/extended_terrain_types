@@ -258,7 +258,8 @@ slots in the middle. This will add your modded track to the corresponding track 
 
 To enable the Bouncy Terrain Type patch, click on "__Options__".
 
-![python3 10_v6IVYr44sM](https://github.com/lance-o/bouncy_material/assets/61329703/806555b7-4149-4176-bf29-c5305f18216e)
+![image](https://github.com/user-attachments/assets/376ca12d-cef3-421d-bcbf-33fb36804e8f)
+
 
 
 Under "__Code Patches__", you should find "__Bouncy Terrain Type__". Tick the box next to it, and now when you press "__Build__"
