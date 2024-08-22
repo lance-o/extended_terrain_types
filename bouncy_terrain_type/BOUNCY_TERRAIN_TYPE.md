@@ -278,30 +278,34 @@ Launch the Memory Viewer.
 
 You're now looking at the real-time memory of Mario Kart: Double Dash!!. 
 
-In the box named "Jump to an address", type the following:
+Now, depending on the region of your game, you will need to use a different address for this process.
+In the box named "Jump to an address", type the following depending on your game version:
 
-> 8000523c
+> USA: 802ed67a
+> PAL: 802f9d0e
+> JAPAN: 8030a78e
 
-![DolphinMemoryEngine_QAfMJPrPIU](https://github.com/lance-o/bouncy_material/assets/61329703/4c939ab8-de5d-4cc8-aa32-05b066b58f73)
+![image](https://github.com/user-attachments/assets/4d0252c1-923a-4886-95c8-0251ee830675)
 
 
-It should look like that. 
+It should look like that.
 
 Remember how we left the 8-character hash at the end of your material name as "00000000", as it would instead
-read from "somewhere in memory"?
+read from "somewhere in memory"? The first 8 characters in __Dolphin Memory Engine__ is that place in memory. 
 
-The first 8 characters __Dolphin Memory Engine__ is that place in memory. You can now type in whatever you'd like into
-those 8 characters, and then drive onto the track you assigned the Bounce Pad material to. It should bounce you in accordance to 
-what you just put in _Dolphin Memory Engine__.
+You can now type in whatever you'd like into those 8 characters, and then drive onto the track you assigned 
+the Bounce Pad material to. It should bounce you in accordance to what you just put in __Dolphin Memory Engine__.
 
 Now, you can change the direction it bounces you on the fly. When you find a setting you like, you may write it down 
 (or, if Blender is still open, go and change the material immediately). 
+
+Alternatively, if the default value of "50005000" for the bounce is to your liking, you can leave it how it is.
 
 
 https://github.com/lance-o/bouncy_material/assets/61329703/d18488a2-8889-447d-9de9-372b4b09f326
 
 
-> NOTE: This example is from when the address used was different. Please only use the address "0x8000523C".
+> NOTE: This example is from an early version of the patch, and so the address is inaccurate to the current release. Please only use one of the addresses specified earlier.
 
 Now, for every new Bounce Pad material you add to the track, you may use the workflow of setting the ending 8 characters as 
 "00000000" in __Blender__ to do this in __Dolphin Memory Engine__, and then enter the final setting into __Blender__ when you
@@ -327,8 +331,13 @@ of force to add upwards x100 in hex and FFFF being the amount of force to add fo
 Since it's hard to gauge exactly how far it'll push you based on that information, leave YYYYFFFF as 00000000.
 This will cause the patch to read from a place in memory instead.
 
-Use __Dolphin Memory Engine's Memory Viewer__ and go to 0x8000523C. Treat the first 8 values the same way you
-would the material name; you may experiment with different bounce settings in this way without having to recompile the game.
+Use __Dolphin Memory Engine's Memory Viewer__ and go to one of the following addresses, respective to your game version:
+
+> USA: 802ed67a
+> PAL: 802f9d0e
+> JAPAN: 8030a78e
+
+Treat the first 8 values the same way you would the material name; you may experiment with different bounce settings in this way without having to recompile the game.
 
 
 https://github.com/lance-o/bouncy_material/assets/61329703/43582a35-8024-4010-b193-ad1cc1b07d4b
